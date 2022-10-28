@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda&family=Comfortaa:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #252422;
+}
+/*font-family: 'Coda', cursive;
+font-family: 'Comfortaa', cursive;*/
+body::-webkit-scrollbar {
+    width: 4px;      
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: transparent;        
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #EB5E28;           
+    border: 2px solid #EB5E28;  
+    border-radius: 5px;
+  }
+#menu{
+ position: static;
+}
+#menu ul li{
+  display: inline-block;
+  margin-top: 3em;
+  margin-left: 5em;
+  margin-bottom: 5em;
+  list-style: none;
+}
+
+#menu ul{
+  margin-left: 80em;
+}
+#menu a{
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Coda', cursive;
+  font-size: 1.2em;
+}
+#menu a:hover{
+  text-decoration: underline;
+  color: #EB5E28;
+}
+
+section span{
+  color: #fff;
+  font-size: 1.6em;
+  font-family: 'Coda', cursive;
+  margin-left: 15em;
+}
+
+#skills{
+  display: grid;
+  grid: "1 1" "1 1" "1 1" "1 1";
+  grid-template-columns: 300px 300px;
+  margin-left: 22em;
+  margin-top: 5em;
+}
+
+#h{
+  height: 5em;
+  width: 7em;
+}
+#c{
+  height: 5em;
+  width: 7em;
+}
+#p{
+  height: 5em;
+  width: 7em;
+  margin-top: 2em;
+}
+#l{
+  height: 5em;
+  width: 7em;
+  color: #FF2D00;
+  margin-top: 2em;
+}
+#j{
+  height: 5em;
+  width: 7em;
+  margin-top: 2em;
+}
+#d{
+  height: 5em;
+  width: 7em;
+  margin-top: 2em;
+}

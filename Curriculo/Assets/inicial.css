@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda&family=Comfortaa:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*font-family: 'Coda', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Comfortaa', cursive;*/
+body::-webkit-scrollbar {
+    width: 4px;      
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: transparent;        
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #EB5E28;           
+    border: 2px solid #EB5E28;  
+    border-radius: 5px;
+  }
+body{
+  background-color: #252422;
+  font-family: 'Coda', cursive;
+}
+#menu{
+ position: static;
+}
+#menu ul li{
+  display: inline-block;
+  margin-top: 3em;
+  margin-left: 5em;
+  margin-bottom: 5em;
+  list-style: none;
+}
+
+#menu ul{
+  margin-left: 80em;
+}
+#menu a{
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Coda', cursive;
+  font-size: 1.2em;
+}
+#menu a:hover{
+  text-decoration: underline;
+  color: #EB5E28;
+}
+
+#underline{
+    background-color: #EB5E28;
+    height: 1px;
+    width: 12em;
+    margin-bottom: 0.3em;
+    margin-top: 0.1em;
+}
+
+section p{
+    font-family: 'Comfortaa', cursive;
+    font-size: 0.8em;
+    color: #fff;
+    margin-left: 1.9em;
+}
+
+section h3{
+    font-size: 1.5em;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 0.4em;
+}
+
+section span{
+    color: #EB5E28;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    margin-left: 0.6em;
+}
+
+#container{
+  display: grid;
+  grid: "1 1";
+}
+
+#container section{
+  margin-left: 20em;
+}
+
+#logo-contact{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10em;
+}
+
+#storyset{
+  margin-left: 20em;
+  margin-top: 3em;
+}
+
+#blob{
+  position: absolute;
+}
+
+#face{
+position: absolute;
+margin-top: 5em;
+margin-left: 10em;
+}
+
+#container article{
+  position: relative;
+}

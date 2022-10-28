@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda&family=Comfortaa:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*font-family: 'Coda', cursive;
+font-family: 'Comfortaa', cursive;*/
+body::-webkit-scrollbar {
+    width: 4px;      
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: transparent;        
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #EB5E28;           
+    border: 2px solid #EB5E28;  
+    border-radius: 5px;
+  }
+body{
+  background-color: #252422;
+  font-family: 'Coda', cursive;
+}
+#menu{
+ position: static;
+}
+#menu ul li{
+  display: inline-block;
+  margin-top: 3em;
+  margin-left: 5em;
+  margin-bottom: 5em;
+  list-style: none;
+}
+
+#menu ul{
+  margin-left: 80em;
+}
+#menu a{
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Coda', cursive;
+  font-size: 1.2em;
+}
+#menu a:hover{
+  text-decoration: underline;
+  color: #EB5E28;
+}
+section span{
+    color: #fff;
+    font-size: 2em;
+    font-family: 'Coda', cursive;
+    margin-left: 25em;
+}
+
+#container{
+  width: 100%;
+  display: grid;
+  grid: "1 1";
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  margin-top: 5em;
+}
+
+#continfo{
+ display: grid;
+ justify-items: center;
+}
+
+#contform{
+ display: grid;
+ justify-items: center;
+}
+
+#continfo .box h3 {
+  color: #fff;
+}
+
+#continfo .box p {
+  color: #fff;
+}
+.form-control {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 190px;
+}
+
+.form-control input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #fff solid;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+  border-bottom-color: #EB5E28;
+}
+
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  pointer-events: none;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 1em;
+  min-width: 5px;
+  color: #fff;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus+label span,
+.form-control input:valid+label span {
+  color: #EB5E28;
+  transform: translateY(-30px);
+}
+form .button{
+  background-color: #EB5E28;
+  width: 40%;
+  padding: 5px;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.box {
+  display: grid;
+  grid: "1 1";
+  align-items: center;
+  column-gap:  30px;
+}
+
+.box .icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px;
+  border-radius: 100000000000000px;
+  font-size: 1.2em;
+  color: #fff;
+  border: 1px solid #EB5E28;
+}

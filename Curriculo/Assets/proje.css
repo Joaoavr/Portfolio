@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda&family=Comfortaa:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*font-family: 'Coda', cursive;
+font-family: 'Comfortaa', cursive;*/
+body::-webkit-scrollbar {
+    width: 4px;      
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: transparent;        
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #EB5E28;           
+    border: 2px solid #EB5E28;  
+    border-radius: 5px;
+  }
+body{
+  background-color: #252422;
+  font-family: 'Coda', cursive;
+}
+#menu{
+ position: static;
+}
+#menu ul li{
+  display: inline-block;
+  margin-top: 3em;
+  margin-left: 5em;
+  margin-bottom: 5em;
+  list-style: none;
+}
+
+#menu ul{
+  margin-left: 80em;
+}
+#menu a{
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Coda', cursive;
+  font-size: 1.2em;
+}
+#menu a:hover{
+  text-decoration: underline;
+  color: #EB5E28;
+}
+section span{
+    color: #fff;
+    font-size: 2em;
+    font-family: 'Coda', cursive;
+    margin-left: 13.8em;
+}
+article p{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+
+}
+#container{
+    display: grid;
+    grid: "1 1" "1 1";
+  margin-top: 5em;
+  justify-content: center;
+  column-gap: 2em;
+  row-gap: 2em;
+}

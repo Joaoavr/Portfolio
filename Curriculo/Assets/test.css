@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda&family=Comfortaa:wght@300;400;500;600&display=swap');
+
+/* From uiverse.io by @liyaxu123 */
+body{
+  background-color: #252422;
+  font-family: 'Coda', cursive;
+}
+.form-control {
+    position: relative;
+    margin: 20px 0 40px;
+    width: 190px;
+  }
+  
+  .form-control input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #fff solid;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .form-control input:focus,
+  .form-control input:valid {
+    outline: 0;
+    border-bottom-color: #EB5E28;
+  }
+  
+  .form-control label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    pointer-events: none;
+  }
+  
+  .form-control label span {
+    display: inline-block;
+    font-size: 1em;
+    min-width: 5px;
+    color: #fff;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .form-control input:focus+label span,
+  .form-control input:valid+label span {
+    color: #EB5E28;
+    transform: translateY(-30px);
+  }
+  form .button{
+    background-color: transparent;
+    border: 1px solid #EB5E28;
+    padding: 5px;
+    color: #fff;
+  }
